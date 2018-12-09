@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+}
+body{
+    background-image: url("https://colorlib.com/etc/lf/Login_v5/images/bg-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+}
+.avatar{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bgr{
+    border-radius: 6px;
+    background-color: darkgray;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    border-radius: 6px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    border: white;
+}
+input[type="button"], input[type="reset"]{
+    background: #9933cc;
+    border-radius: 20px;
+    color: white;
+}
+input[type="button"]:hover{
+    background-color: darkcyan;
+}
+input[type="reset"]:hover{
+    background-color: darkcyan;
+}

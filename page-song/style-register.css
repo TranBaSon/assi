@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 16px;
+}
+body{
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/29-06-2017/event_registration_form-demo_Free/744047052/web/images/1.jpg");
+    background-size:cover;
+}
+.msg-error {
+    color: red;
+}
+
+.msg-success {
+    color: #3d9e66;
+}
+
+.register {
+    top: 0;
+    position: fixed;
+    min-width: 500px;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    border-radius: 20px;
+    height: 100%;
+    background-color: rgba(250,255,94,0.75);
+    width: 40%;
+    overflow: scroll;
+
+}
+.register form {
+    margin:30px 8px;
+}
+.register input{
+    font-size: 18px;
+    width: 100%;
+    border-bottom-color: black;
+    border-right-color: black;
+    background-color: rgba(150,152,153,0.35);
+}
+.register textarea{
+    border-color: black;
+    background-color: rgba(150,152,153,0.35);
+}
+.register select{
+    border-color: black;
+    background-color: rgba(150,152,153,0.35);
+}
+.name{
+    font-size: 18px;
+}
+.btn{
+    margin: 5px;
+    border-radius: 20px;
+    border-color: none;
+    background-color: #9933cc;
+}
+input[type=button], input[type=reset]{
+    background-color: #fdcb6e;
+    border-radius: 20px;
+    border-color: black;
+}
+input[type=reset]:hover{
+    background-color: #0099cc;
+}
+input[type=button]:hover{
+    background-color: #0099cc;
+}
+h2{
+    text-align: center;
+    margin: auto;
+}
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .register{
+        width: 100%;
+        max-width: ;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+

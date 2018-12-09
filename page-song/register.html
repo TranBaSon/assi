@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register form</title>
+    <link rel="stylesheet" href="style-register.css">
+</head>
+<body>
+<div class="register">
+    <form action="" method="post" name="register-form">
+        <h2>Register form</h2>
+        <div class="row name">
+            <div class="col-3">First Name</div>
+            <div class="col-8">
+                <input type="text" id="firstName" name="firstName">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Last Name</div>
+            <div class="col-8">
+                <input type="text" name="lastName">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Password</div>
+            <div class="col-8">
+                <input type="password" name="password">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Confirm Password</div>
+            <div class="col-8">
+                <input type="password" name="confirmPassword">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Address</div>
+            <div class="col-8">
+                <textarea name="address" cols="50" rows="10"></textarea>
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Phone</div>
+            <div class="col-8">
+                <input type="text" name="phone">
+                <span></span>
+            </div>
+        </div>
+        <div class="row name">
+            <div class="col-3">Avatar</div>
+            <div class="col-8">
+                <input type="text" name="avatar">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Gender</div>
+            <div class="col-8">
+                <select name="gender">
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                    <option value="2">Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Email</div>
+            <div class="col-8">
+                <input type="email" name="email">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 name">Birthday</div>
+            <div class="col-8"><input type="date" name="birthday"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <input type="button" name="btnSubmit" value="Submit" class="btn">
+                <input type="reset" name="btnReset" value="Reset" class="btn">
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script src="register.js"></script>
+</body>
+</html>

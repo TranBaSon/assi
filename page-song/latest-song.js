@@ -28,8 +28,8 @@ xhr.onreadystatechange = function () {
             // cach 1
             //content += '<div class="song-control " onclick="playSong(\'' + song.link + '\')">Play</div>';
             //cach 2
-            content += `<div class="song-control col-1 col-s-1" onclick="playSong('${song.link}')">Play</div>`;
-            content += '<div class="song-control col-2 col-s-2"><a href="#">Detail></a></div>';
+            content += `<div class="song-control col-1 col-s-1" onclick="playSong('${song.link}')"><i class="far fa-play-circle"></i></div>`;
+            content += '<div class="song-control col-2 col-s-2"><a href="#"><i class="fas fa-info"></i></a></div>';
             content += '</div>';
         }
         document.getElementById('list-song').innerHTML += content;

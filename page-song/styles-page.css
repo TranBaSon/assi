@@ -50,10 +50,11 @@ body{
     background-size: cover;
 }
 
-.player{
+.player {
+
     position: fixed;
     bottom: 0%;
-    background-color: #f1f3f4;
+    background-color:navajowhite;
 }
 
 .up{
@@ -116,21 +117,27 @@ body{
 
 .song-control {
     margin-left: 5%;
-    padding-top: 3%;
-    color: black;
+    padding-top: 2.5%;
+    color: rgba(255,69,25,0.65);
     cursor: pointer;
     text-decoration: underline;
     float: left;
     width: 10%;
     text-decoration: none;
+    font-size: 30px;
 }
 .song-control:hover{
-    font-size: 20px;
+    font-size: 40px;
     color: crimson;
 }
 .song-control a{
-    color: blue;
+    font-size: 28px;
+    color: black;
     text-decoration: none;
+}
+.song-control a:hover{
+    font-size: 30px;
+    color: blue;
 }
 .song-detail {
     float: left;

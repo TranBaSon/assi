@@ -27,15 +27,17 @@ body{
     margin: 0;
     border-radius: 20px;
     height: 100%;
-    background-color: rgba(250,255,94,0.75);
+    background-color: #7e9e68;
     width: 40%;
     overflow: scroll;
 
 }
 .register form {
-    margin:30px 8px;
+    min-width: 500px;
+    margin:30px 20px;
 }
 .register input{
+    margin-top: 5px;
     font-size: 18px;
     width: 100%;
     border-bottom-color: black;
@@ -60,7 +62,7 @@ body{
     background-color: #9933cc;
 }
 input[type=button], input[type=reset]{
-    background-color: #fdcb6e;
+    background-color: #ffffff ;
     border-radius: 20px;
     border-color: black;
 }

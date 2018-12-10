@@ -1,12 +1,13 @@
 loadSong();
-function playSong(link) {
+function playSong(link, name, singer ) {
     var audioPlayer= document.getElementsByTagName('audio') [0];
     audioPlayer.src = link;
     audioPlayer.play();
     var stylesPlayer = document.getElementsByClassName('style-player');
     stylesPlayer[0].innerHTML = '<link rel="stylesheet" href="style-player.css" class="css-player">';
-     var remove = stylesPlayer.children[1];
-    stylesPlayer.removeChild(remove);
+    playSongs();
+    //  var remove = stylesPlayer.children[1];
+    // stylesPlayer.removeChild(remove);
 }
 function loadSong() {
     var xhr = new XMLHttpRequest();

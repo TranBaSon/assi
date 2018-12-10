@@ -35,6 +35,7 @@ function createSong() {
         if (xhr.readyState == 4 && xhr.status == 201){
             var responseData = JSON.parse(xhr.responseText);
             alert('Save sucess !');
+            location.href = 'my-song.html';
         } else if (xhr.readyState == 4){
             var responseData = JSON.parse(xhr.responseText);
             alert('Save fails, please try again!' + xhr.responseText);

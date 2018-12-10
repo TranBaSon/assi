@@ -40,6 +40,7 @@ function doRegister() {
         if (xhr.readyState == 4 && xhr.status == 201) {
             var responseData = JSON.parse(xhr.responseText);
             alert('Register success!');
+            location.href = 'login.html';
         } else if (xhr.readyState == 4) {
             alert('Register fails, please try again! ' + xhr.responseText);
         }

@@ -1,6 +1,7 @@
 loadSong();
+
 function playSong(link) {
-    var audioPlayer= document.getElementsByTagName('audio') [0];
+    var audioPlayer = document.getElementsByTagName('audio') [0];
     audioPlayer.src = link;
     audioPlayer.play();
     var stylesPlayer = document.getElementsByClassName('style-player');
@@ -8,6 +9,7 @@ function playSong(link) {
     var remove = stylesPlayer.children[1];
     stylesPlayer.removeChild(remove);
 }
+
 function loadSong() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
@@ -36,7 +38,7 @@ function loadSong() {
             document.getElementById('list-song').innerHTML += content;
         }
     };
-    xhr.open('GET', 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs/get-mine', true);
+    xhr.open('GET', 'https://2-dot-backup-server-003.appspot.com/_api/v2/songs/get-mine', true);
     xhr.setRequestHeader('Authorization', 'Basic ' + localStorage.getItem('token-key'));
     xhr.send();
 }

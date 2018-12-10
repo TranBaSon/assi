@@ -4,7 +4,7 @@
 // document.querySelector()
 var btnSubmit = document.forms['register-form']['btnSubmit'];
 btnSubmit.onclick = function () {
-    if(validateForm()){
+    if (validateForm()) {
         // Gửi dữ liệu đi.
         doRegister();
     }
@@ -44,23 +44,22 @@ function doRegister() {
             alert('Register fails, please try again! ' + xhr.responseText);
         }
     };
-    xhr.open('POST', 'https://2-dot-backup-server-002.appspot.com/_api/v2/members', true);
+    xhr.open('POST', 'https://2-dot-backup-server-003.appspot.com/_api/v2/members', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(jsonRegisterInformation);
 }
 
-// Kiểm tra dữ liệu người dùng trước khi gửi đi.
-// Trả về true hoặc false.
+
 function validateForm() {
-    // Lưu trữ trạng thái validate của cả form.
+
     var isValid = true;
-    // Lưu trữ trạng thái validate của first name.
+
     var isValidFirstName = true;
-    // Lưu trữ trạng thái validate của last name.
+
     var isValidLastName = true;
-    // Lưu trữ trạng thái validate của password.
+
     var isValidPassword = true;
-    // Lưu trữ trạng thái validate của confirm password.
+
     var isValidConfirmPassword = true;
 
     var isValidAddress = true;
@@ -72,19 +71,17 @@ function validateForm() {
     var isValidEmail = true;
 
 
-    // Lấy ra input text có tên là 'firstName' nằm trong form 'register-form'.
     var txtFirstName = document.forms['register-form']['firstName'];
-    // Lấy ra phần tử span nằm kế tiếp của txtFirstName. (dùng để hiển thị thông báo lỗi)
     var msgFirstName = txtFirstName.nextElementSibling;
-    // Kiểm tra dữ liệu trong input txtFirstName. Nếu không có dữ liệu thì tạo thông báo lỗi.
+
     if (txtFirstName.value == null || txtFirstName.value.length == 0) {
-        // Xoá class msg-success (chuyển chữ thành xanh) khỏi span thông báo lỗi (nếu có).
+
         msgFirstName.classList.remove('msg-success');
-        // Thêm class msg-error (chuyển chữ thành màu đỏ)
+
         msgFirstName.classList.add('msg-error');
-        // Chuyển nội dung text.
+
         msgFirstName.innerHTML = 'First name is required!';
-        // Chuyển trạng thái validate của fistName thành false.
+
         isValidFirstName = false;
     } else {
         msgFirstName.classList.remove('msg-error');
@@ -133,11 +130,11 @@ function validateForm() {
 
     var txtAddress = document.forms['register-form']['address'];
     var msgAddress = txtAddress.nextElementSibling;
-    if (txtAddress.value == null || txtAddress.value.length == 0 ) {
+    if (txtAddress.value == null || txtAddress.value.length == 0) {
         msgAddress.classList.remove('msg-success');
         msgAddress.classList.add('msg-error');
         msgAddress.innerHTML = 'Address is required!';
-        isValidAddress= false;
+        isValidAddress = false;
     } else {
         msgAddress.classList.remove('msg-error');
         msgAddress.classList.add('msg-success');
@@ -145,8 +142,8 @@ function validateForm() {
     }
 
     var txtPhone = document.forms['register-form']['phone'];
-    var msgPhone= txtPhone.nextElementSibling;
-    if (txtPhone.value == null || txtPhone.value.length == 0 ) {
+    var msgPhone = txtPhone.nextElementSibling;
+    if (txtPhone.value == null || txtPhone.value.length == 0) {
         msgPhone.classList.remove('msg-success');
         msgPhone.classList.add('msg-error');
         msgPhone.innerHTML = 'Phone is required!';
@@ -158,8 +155,8 @@ function validateForm() {
     }
 
     var txtAvatar = document.forms['register-form']['avatar'];
-    var msgAvatar= txtAvatar.nextElementSibling;
-    if (txtAvatar.value == null || txtAvatar.value.length == 0 ) {
+    var msgAvatar = txtAvatar.nextElementSibling;
+    if (txtAvatar.value == null || txtAvatar.value.length == 0) {
         msgAvatar.classList.remove('msg-success');
         msgAvatar.classList.add('msg-error');
         msgAvatar.innerHTML = 'Avatar is required!';
@@ -170,9 +167,9 @@ function validateForm() {
         msgAvatar.innerHTML = 'Ok!';
     }
 
-    var txtEmail= document.forms['register-form']['email'];
-    var msgEmail= txtEmail.nextElementSibling;
-    if (txtEmail.value == null || txtEmail.value.length == 0 ) {
+    var txtEmail = document.forms['register-form']['email'];
+    var msgEmail = txtEmail.nextElementSibling;
+    if (txtEmail.value == null || txtEmail.value.length == 0) {
         msgEmail.classList.remove('msg-success');
         msgEmail.classList.add('msg-error');
         msgEmail.innerHTML = 'Email is required!';

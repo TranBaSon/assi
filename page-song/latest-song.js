@@ -35,7 +35,7 @@ xhr.onreadystatechange = function () {
         document.getElementById('list-song').innerHTML += content;
     }
 };
-xhr.open('GET', 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs/get-free-songs', true);
+xhr.open('GET', 'https://2-dot-backup-server-003.appspot.com/_api/v2/songs/get-free-songs', true);
 xhr.setRequestHeader("Authorization", "Basic " + localStorage.getItem('token-key'));
 xhr.send();
 }

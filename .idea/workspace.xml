@@ -31,7 +31,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="49" />
-          <entry key="html" value="71" />
+          <entry key="html" value="76" />
           <entry key="jpg" value="5" />
           <entry key="js" value="65" />
           <entry key="php" value="1" />
@@ -40,7 +40,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="49" />
-          <entry key="HTML" value="71" />
+          <entry key="HTML" value="76" />
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="65" />
           <entry key="PHP" value="1" />
@@ -49,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2547" />
-          <entry key="html" value="2445" />
+          <entry key="html" value="2524" />
           <entry key="js" value="4383" />
           <entry key="php" value="13" />
         </counts>
@@ -57,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2547" />
-          <entry key="HTML" value="2445" />
+          <entry key="HTML" value="2524" />
           <entry key="JavaScript" value="4383" />
           <entry key="PHP" value="13" />
         </counts>
@@ -66,11 +66,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-song/page.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page-song/latest-song.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-song/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-song/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-song/my-song.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-song/create-song.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -98,51 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-song/style-register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-song/lastest.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="131" column="20" lean-forward="true" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-song/latest-song.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="34" column="66" lean-forward="true" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-song/my-song.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-song/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -196,26 +196,26 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page-song/home.html" />
         <option value="$PROJECT_DIR$/page-song/style-login.css" />
-        <option value="$PROJECT_DIR$/page-song/login.html" />
         <option value="$PROJECT_DIR$/page-song/style-player.css" />
         <option value="$PROJECT_DIR$/page-song/register-1.html" />
         <option value="$PROJECT_DIR$/page-song/register1.css" />
-        <option value="$PROJECT_DIR$/page-song/register.html" />
-        <option value="$PROJECT_DIR$/page-song/create-song.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/page-song/create-song.js" />
         <option value="$PROJECT_DIR$/page-song/latest-song.js" />
         <option value="$PROJECT_DIR$/page-song/login.js" />
         <option value="$PROJECT_DIR$/page-song/register.js" />
-        <option value="$PROJECT_DIR$/page-song/latest-song.html" />
-        <option value="$PROJECT_DIR$/page-song/my-song.html" />
         <option value="$PROJECT_DIR$/page-song/my-song.js" />
         <option value="$PROJECT_DIR$/page-song/lastest.css" />
         <option value="$PROJECT_DIR$/page-song/page.js" />
         <option value="$PROJECT_DIR$/page-song/create-song-styles.css" />
         <option value="$PROJECT_DIR$/page-song/style-register.css" />
         <option value="$PROJECT_DIR$/page-song/styles-page.css" />
+        <option value="$PROJECT_DIR$/page-song/create-song.html" />
+        <option value="$PROJECT_DIR$/page-song/my-song.html" />
         <option value="$PROJECT_DIR$/page-song/page.html" />
+        <option value="$PROJECT_DIR$/page-song/register.html" />
+        <option value="$PROJECT_DIR$/page-song/login.html" />
+        <option value="$PROJECT_DIR$/page-song/latest-song.html" />
       </list>
     </option>
   </component>
@@ -387,12 +387,12 @@
       <workItem from="1544361540379" duration="694000" />
       <workItem from="1544362454358" duration="5374000" />
       <workItem from="1544368548095" duration="971000" />
-      <workItem from="1544411697217" duration="6075000" />
+      <workItem from="1544411697217" duration="6382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126479000" />
+    <option name="totallyTimeSpent" value="126786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,7 +407,7 @@
     <frame x="316" y="24" width="1357" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13173653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13173653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -556,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-song/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-song/img/98f891590d1f8786e76dfed8a5b308d0 (1).jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -595,20 +588,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-song/register-1.html" />
     <entry file="file://$PROJECT_DIR$/page-song/register1.css" />
-    <entry file="file://$PROJECT_DIR$/page-song/create-song.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-song/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1633">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-song/latest-song.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-song/latest-song.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -648,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="131" column="20" lean-forward="true" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-song/my-song.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -700,10 +665,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-song/page.html">
+    <entry file="file://$PROJECT_DIR$/page-song/create-song.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-song/my-song.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-song/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-song/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-song/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-song/latest-song.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>

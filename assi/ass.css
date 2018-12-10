@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+}
+.header{
+    background-color: rgba(255,69,25,0.65);
+}
+.info{
+    background-color: #9933cc;
+    width: 100%;
+}
+.info form{
+    background-color: #f1f3f4;
+    margin: auto;
+    position: center;
+    width: 80%;
+
+}
+.name{
+    font-size: 20px;
+}
+.info input{
+    font-size: 20px;
+    margin: 2%;
+}
+.info input[type=email] , input[type=text] , textarea{
+    width: 60%;
+    margin-left: 10%;
+}
+.info h2 {
+    text-align: center;
+}
+div .name{
+    margin-left: 3%;
+}
+.btn{
+    margin-left: 40%;
+}
+.msg-error {
+    color: red;
+}
+
+.msg-success {
+    color: #3d9e66;
+}

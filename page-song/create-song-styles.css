@@ -93,8 +93,13 @@ input[type=button]:hover{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+}
 
-    @media only screen and (max-width: 600px) {
-/* For desktop: */
-
-
+@media only screen and (max-width: 600px) {
+.create{
+    overflow: scroll;
+    min-width: 320px;
+}  .btn{
+        width: 100px;
+    }
+}

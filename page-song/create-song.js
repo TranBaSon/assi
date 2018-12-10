@@ -25,7 +25,7 @@ function createSong() {
         singer: _singer.value,
         link: _link.value,
         author: _author.value,
-        description: -_description
+        description: _description
     }
 
     var jsonSongInfomation = JSON.stringify(songInformation);

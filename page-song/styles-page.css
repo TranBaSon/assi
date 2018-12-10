@@ -149,7 +149,7 @@ body{
 
 .list-song{
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 23%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -181,5 +181,59 @@ body{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        margin-left: 0%;
+        box-sizing: border-box;
+    }
+    .nav {
+        width: 100%;
+    }
+    .nav a{
+        margin-left: 5%;
+    }
+
+    .player {
+        margin-left: 0%;
+        width: 100%;
+        left: 0px;
+    }
+    .song-index{
+        width: 5%;
+    }
+    .song-thumbnail{
+        margin-left: 10%;
+        width: 10%;
+    }
+    .song-infor{
+        margin-left: 3%;
+        width: 30%;
+    }
+    .song-control{
+        width: 10%;
+    }
+    .list-song{
+        width: 100%;
+        margin-top: 30%;
+        margin-bottom: 2%;
+    }
+    .allbum{
+        margin-top: 2%;
+        position: static;
+        margin-bottom: 30%;
+    }
+    .audio{
+        width: 200px;
+    }
+    .middle{
+        display: none;
+    }
+    .up{
+        bottom: 15%;
+    }
+
 
 }

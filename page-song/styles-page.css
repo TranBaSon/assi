@@ -94,6 +94,7 @@ body{
 }
 
 .song-thumbnail img {
+    margin-left: 3%;
     width: 100%;
     border-radius: 10px;
 }
@@ -114,6 +115,7 @@ body{
 }
 
 .song-control {
+    margin-left: 5%;
     padding-top: 3%;
     color: black;
     cursor: pointer;
